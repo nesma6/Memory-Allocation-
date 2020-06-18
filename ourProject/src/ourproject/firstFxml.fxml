@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" stylesheets="@ourCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ourproject.firstFxmlController">
+   <children>
+      <TreeView id="tree" fx:id="ourTree" layoutY="27.0" prefHeight="530.0" prefWidth="220.0" stylesheets="@treeViewCss.css" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TabPane fx:id="ourTabPane" layoutX="200.0" prefHeight="574.0" prefWidth="781.0" stylesheets="@ourCSS.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox alignment="CENTER" layoutX="400.0" layoutY="530.0" prefHeight="20.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="580.0">
+         <children>
+            <Label alignment="CENTER" style="-fx-text-alignment: center; -fx-text-fill: #F3F3F3; -fx-font-size: 14;" text="© Faculty Of Engineering Ain Shams University" />
+         </children></HBox>
+   </children>
+</AnchorPane>

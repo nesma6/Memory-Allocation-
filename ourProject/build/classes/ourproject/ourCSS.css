@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2020, 4:34:26 AM
+    Author     : moh1969
+*/
+.root{
+     -fx-background-color: linear-gradient(#383838, #838383);
+     -fx-font-size: 10pt;
+    
+ }
+
+
+ .label{
+     -fx-end-margin:10;
+  }
+  
+   .text-field {
+       
+    -fx-prompt-text-fill: #F3F3F3;
+    -fx-text-fill:  #F3F3F3;
+    -fx-font-size: 11pt;
+    
+}
+ 
+  .vbox{
+      -fx-alignment: TOP_LEFT;
+      
+  }
+ .button{
+-fx-background-color: #491076;
+-fx-background-radius: 10;
+-fx-text-fill: white;
+ }
+
+ .text-area{
+     -fx-background-color: white;
+     -fx-background-radius: 0;
+  }
+
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: linear-gradient(#383838, #838383) ;
+    -fx-text-fill: white;
+}
+.tab {
+  -fx-font-family: Arial;
+  -fx-font-size: 15;
+  -fx-text-base-color: #888888;
+  -fx-background-color:#D0CEDB ;
+}
+
+.tab:selected {
+    -fx-background-color:#888888 ;
+    -fx-text-base-color: #D0CEDB;
+}
